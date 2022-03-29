@@ -1,0 +1,9 @@
+.hidden {
+    visibility: hidden;
+    transition: all 0.6s;
+    transform: translateY(-100%) !important;
+}
+
+.navbar-bg {
+    background-color: var(--opacity-dark-bg);
+}

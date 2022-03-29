@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600&family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* variables */
+:root {
+  --bg-color: rgb(13, 13, 13);
+  --dark: rgba(26, 26, 26, 0.8);
+  --opacity-dark: rgba(26, 26, 26, 0.4);
+  --opacity-darker: rgba(0, 0, 0, 0.7);
+  --opacity-dark-bg:rgba(13, 13, 13, 0.85);
+  --bg-dark: rgb(26, 26, 26);
+  --light-dark: rgb(69, 80, 91);
+  --white: rgb(242, 242, 242);
+  --darker-white: rgb(217, 217, 217);
+  --blue: rgb(5, 99, 187);
+  --darker-blue: rgb(4, 79, 149);
+  --blue-opacity: rgba(5, 99, 187, 0.15);
+  --light-slate: rgb(168, 178, 209) --lightest-slate:rgb(204, 214, 246);
+  --lightest-slate: #ccd6f6;
+  --light-navy: #112240;
+  --blue-gradient: linear-gradient(270deg,
+      rgb(19, 173, 199) 0%,
+      rgb(148, 93, 214) 100%);
+
+  --border-radius: 4px;
+
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+}
+
+body {
+  font-family: "Open Sans",
+    sans-serif;
+  background-color: var(--bg-color) !important;
+}
+
+section {
+  padding: 120px 0 0 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  position: relative;
+  color: var(--white);
+}
+
+.section-line {
+  width: 50px;
+  height: 4px;
+  background: var(--blue-gradient);
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--white) !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
