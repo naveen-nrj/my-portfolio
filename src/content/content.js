@@ -57,7 +57,7 @@ export const projects = [
     description: 'An application that tracks all the crypto prices and displays their graph and details',
     tech: ['React', 'Firebase'],
     liveURL: 'https://the-cryptotracker.netlify.app/',
-    github: 'https://github.com/minhtungo/realtime-chat-app',
+    github: 'https://github.com/naveen-nrj/CryptoTracker',
     image: '/images/crypto-tracker.png',
   },
   // {
