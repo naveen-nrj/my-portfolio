@@ -1,5 +1,5 @@
-import { FaReact, FaBootstrap, FaNodeJs, FaHtml5 } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiFirebase } from 'react-icons/si';
+import { FaReact, FaBootstrap, FaHtml5 } from 'react-icons/fa';
+import { SiTypescript, SiFirebase } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di';
 
 import { Row, Col } from 'react-bootstrap';
