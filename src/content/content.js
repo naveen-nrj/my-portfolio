@@ -60,6 +60,14 @@ export const projects = [
     github: 'https://github.com/naveen-nrj/CryptoTracker',
     image: '/images/crypto-tracker.png',
   },
+  {
+    title: 'Youtube Clone',
+    description: 'A basic Youtube landing page clone built using simple HTML and CSS',
+    tech: ['HTML', 'CSS'],
+    liveURL: 'https://youtube-clone-naveen.vercel.app/',
+    github: 'https://github.com/naveen-nrj/youtube-clone',
+    image: '/images/youtube-clone.png',
+  },
 ];
 
 export const emailJSParams = {
