@@ -16,21 +16,34 @@ export const about = {
 export const experiences = [
   {
     position: 'Frontend Developer',
+    company: '  Barclays | Chennai, India/ Remote',
+    description: [
+      'Developed and maintained responsive, user-friendly web applications using ReactJS, Javascript, Redux, and SASS.',
+      'Worked closely with UX designers to ensure that web applications were optimized for user experience and aligned with Barclays’ brand guidelines.',
+      'Contributed to the development of new features and enhancements, taking ownership of individual components and collaborating with team members to integrate changes',
+      'Participated in code reviews and provided feedback to team members, helping to maintain code quality and consistency across the team.'
+    ],
+    time: 'Dec 2022 - Present',
+  },
+  {
+    position: 'Frontend Developer',
     company: 'Kyndryl | Bengaluru, India/ Remote',
     description: [
-      'Collaborated with a team of 20 that implemented a web app for the automation of configuring cloud-based solutions for clients.',
-      'Used agile software methodology and best practices on Advanced ReactJS (Functional Components,Context API, Hooks), Java, Material UI, and AG Grid.',
-      'Used Jira and Github to efficiently collaborate with other developers and track bugs.',
+      'Worked as a Frontend Developer using best practices on Advanced React JS (Functional Components, Context API, Hooks), Javascript, Material UI.',
+      'Collaborated with a team of 15 developers, participating in daily stand-ups and contributing to sprint planning and retrospectives.',
+      'Successfully deployed more than 20 cloud offerings to Production which received multiple clients and stakeholder appreciation.',
+      'Acted as a mentor to junior developers, providing guidance and support to help them develop their skills.'
     ],
-    time: 'Sep 2021 - Present',
+    time: 'Sep 2021 - Nov 2022',
   },
   {
     position: 'Frontend Developer',
     company: 'IBM | Bengaluru, India / Remote',
     description: [
-      'Practiced Agile software methodologies for development and picked up skills on ReactJS, JavaScript, JIRA, and TDD.',
-      'Worked for the IBM CIO\'s Cloud Enablement Tool and was responsible for the delivery and maintenance of multiple offerings',
-      'Designed and developed user interfaces that were reusable, generic, and offered ease of use across components.',
+      'Worked as a Frontend Developer for IBM CIO’s Cloud Enablement Tool and was responsible for the delivery and maintenance of multiple offerings.',
+      'Actively contributed to the development of internal tools and libraries to improve development efficiency and code reusability.',
+      'Utilized Agile methodologies to prioritize tasks and effectively communicate progress and updates to team members and stakeholders.',
+      'Deployed more than 10 cloud offerings to Production without any issues/bugs.'
     ],
     time: 'Jan 2020 - August 2021',
   },

@@ -24,7 +24,7 @@ const Footer = () => {
           </Link>
         </SocialLinks>
       </Container>
-      <div className='pb-3'>2022 Naveen Raj</div>
+      <div className='pb-3'>2023 Naveen Raj</div>
     </Section>
   );
 };
