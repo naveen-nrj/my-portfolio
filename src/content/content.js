@@ -69,7 +69,7 @@ export const projects = [
     title: 'Crypto Tracker',
     description: 'An application that tracks all the crypto prices and displays their graph and details',
     tech: ['React', 'Firebase'],
-    liveURL: 'https://the-cryptotracker.netlify.app/',
+    liveURL: 'https://the-crypto-tracker.vercel.app/',
     github: 'https://github.com/naveen-nrj/CryptoTracker',
     image: '/images/crypto-tracker.png',
   },
